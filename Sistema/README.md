@@ -1,0 +1,21 @@
+Tabela LIVROS {
+-ID do Livro: Um identificador único para cada livro na tabela.
+-Título: O título do livro.
+-Autor(es): Os autores do livro. Isso pode ser representado por um campo de texto ou relacionado a uma tabela de autores.
+-ISBN: O International Standard Book Number é um código único para identificar o livro.
+-Quantidade: Quantos 
+-Editora: O nome da editora que publicou o livro.
+-Ano de Publicação: O ano em que o livro foi publicado.
+-Gênero: O gênero literário ao qual o livro pertence (ficção, não ficção, mistério, fantasia, etc.).
+-Sinopse: Uma breve descrição do enredo ou conteúdo do livro.
+-Classificação: Uma avaliação ou classificação dada ao livro, como uma pontuação de estrelas.
+-Quantidade de Páginas: O número total de páginas do livro.
+-Idioma: O idioma em que o livro foi escrito.
+-Formato: O formato físico ou digital do livro (capa dura, brochura, e-book, etc.).
+-Localização Física: Se o livro estiver em uma biblioteca física, pode ser útil registrar onde ele está localizado.
+-Data de Aquisição: A data em que o livro foi adquirido.
+-Data de Empréstimo: Se o sistema estiver controlando empréstimos, a data em que o livro foi emprestado.
+-Data de Devolução: Se o sistema estiver controlando empréstimos, a data esperada de devolução do livro.
+-Status de Disponibilidade: Indicador de se o livro está disponível para empréstimo ou não.
+-Imagem da Capa: Um link para uma imagem da capa do livro.
+}
