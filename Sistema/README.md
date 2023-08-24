@@ -1,4 +1,18 @@
-Tabela LIVROS {
+</br>Tabela USUARIO{
+    </br>-IDusuario
+    </br>-Nome
+    </br>-Função
+    </br>-Contato
+    </br>-Status
+</br>}
+</br></br></br>Tabela Extensão{
+    </br>-IDextensão
+    </br>-Responsavel
+    </br>-Local
+    </br>-Contato
+    </br>-Descrição
+</br>}
+</br></br></br>Tabela LIVROS {
 </br>-ID do Livro: Um identificador único para cada livro na tabela.
 </br>-Título: O título do livro.
 </br>-Autor(es): Os autores do livro. Isso pode ser representado por um campo de texto ou relacionado a uma tabela de autores.
@@ -18,4 +32,6 @@ Tabela LIVROS {
 </br>-Data de Devolução: Se o sistema estiver controlando empréstimos, a data esperada de devolução do livro.
 </br>-Status de Disponibilidade: Indicador de se o livro está disponível para empréstimo ou não.
 </br>-Imagem da Capa: Um link para uma imagem da capa do livro.
-}
+</br>}
+</br></br></br>
+</br> Integração com API de para obter informações sobre os livros. Opções: Google Books API, Open Library API;
